@@ -1,0 +1,165 @@
+body{
+  height:1000px;
+  background-color:gray;
+}
+
+.header{
+  background-color:brown;
+  color:gold;
+  display:flex;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height:40px;
+  justify-content:space-between;
+  align-items: center;
+  z-index:1;
+}
+
+.home{
+  margin-left:10px;
+}
+
+.contact-us{
+  margin-right:10px;
+}
+.home:hover{
+  cursor:pointer;
+}
+
+.about-us:hover{
+  cursor:pointer;
+}
+
+.projects:hover{
+  cursor:pointer;
+}
+
+.contact-us:hover{
+  cursor:pointer;
+}
+
+.logo{
+  display:flex;
+  justify-content: center;
+}
+
+img{
+  width:100%;
+  height:80%;
+  margin-top: 10px;
+  border-radius:10px;  ;
+  -webkit-border-radius:10px  ;
+  -moz-border-radius:10px  ;
+  -ms-border-radius:10px  ;
+  -o-border-radius:10px  ;
+  z-index:0;
+
+}
+
+.service-container{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  
+}
+
+.Our-Services{
+  color:gold;
+  font-family: Arial;
+  font-weight: 900;
+  font-size:22px;
+  width:140px;
+  border-bottom-style: solid;
+
+}
+
+.description{
+  color:#ffd700;
+  font-family: Arial;
+  font-size:20px;
+  font-weight: 900;
+  
+}
+
+.info{
+  color:rgb(112, 24, 24);
+  font-family: Arial;
+  font-size:17px;
+  line-height: 24px;
+
+}
+
+.base-line{
+  display:flex;
+  position:absolute;
+  width:100%;
+  height:400px;
+  margin-top:100px;
+  justify-content: center;
+  
+}
+
+.left-base{
+  background-color:black;
+  color:gold;
+  display:flex;
+  flex:1;
+  justify-content: center;
+  align-items:center;
+  
+}
+
+.right-base{
+  background-color:brown;
+  color:gold;
+  display:flex;
+  flex:1;
+  justify-content: center;
+  align-items:center;
+}
+
+.facebook-icon, .instagram-icon, .linkedin-icon, .whatsapp-icon, .tweeter-icon, .email-icon {
+  width:50px;
+  height:50px;
+  margin-left:10px;
+  margin-top:2px;
+  
+}
+
+.facebook-icon:hover, .instagram-icon:hover, .linkedin-icon:hover, .whatsapp-icon:hover, .tweeter-icon:hover, .email-icon:hover {
+  cursor:pointer;
+}
+
+.facebook-icon:hover{
+
+  width:55px;
+  height:55px;
+}
+
+.instagram-icon:hover{
+  width:55px;
+  height:55px;
+}
+
+.linkedin-icon:hover{
+  width:55px;
+  height:55px;
+}
+
+.whatsapp-icon:hover{
+  width:55px;
+  height:55px;
+}
+
+.tweeter-icon:hover{
+  width:55px;
+  height:55px;
+}
+
+.email-icon:hover{
+  width:55px;
+  height:55px;
+}
+
